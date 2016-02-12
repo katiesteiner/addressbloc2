@@ -64,4 +64,7 @@ class AddressBook
     end
     return nil
   end
+  def demolish_entries
+    @entries = []
+  end
 end
